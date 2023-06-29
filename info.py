@@ -13,7 +13,7 @@ def is_enabled(value, default):
 # Bot information
 SESSION = environ.get('SESSION', 'HBmedia48_bot')
 API_ID = int(environ('API_ID', '20295730')
-API_HASH = environ('API_HASH', '7726594daddc25a11ee0904132d608d8')
+API_HASH = environ('API_HASH', "7726594daddc25a11ee0904132d608d8")
 BOT_TOKEN = environ('BOT_TOKEN', '6227784089:AAEpsDy85fxAPu9-2_NIqBoVKHDD-JbdS0E')
 
 # Bot settings
